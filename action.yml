@@ -1,0 +1,18 @@
+name: 'Template'
+description: 'Template action'
+
+inputs:
+  repository:
+    description: 'Repository name'
+    required: false
+    default: '@ATOS-Actions/template'
+
+runs:
+  using: composite
+  steps:
+    - id: step-1
+      name: '1️⃣ Step 1'
+      shell: bash
+      run: |
+        echo "This is the action from the ${{ inputs.repository }} repository..."
+        echo "For more information, see https://docs.github.com/en/actions/creating-actions/about-custom-actions"

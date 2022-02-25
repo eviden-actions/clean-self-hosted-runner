@@ -1,0 +1,55 @@
+# This is the workflow for the CI/CD and release
+#
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+      - next
+      - beta
+      - alpha
+
+jobs:
+  validate:
+    uses: ./.github/workflows/validate.yml
+
+  release:
+    name: '🏷️ Release'
+    needs: [validate]
+    runs-on: ubuntu-latest
+    # container: node:lts-bullseye
+
+    environment:
+      name: production
+      url: https://github.com/${{ github.repository }}/releases/tag/v${{ steps.release.outputs.version }}
+
+    outputs:
+      version: ${{ steps.release.outputs.version }}
+
+    steps:
+      - name: '☁️ Checkout repository'
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: '⚙️ Use Node.js'
+        uses: actions/setup-node@v2
+        with:
+          check-latest: true
+          cache: 'npm'
+
+      - name: '⛓️ Install dependencies'
+        run: npm ci --no-optional --no-audit --prefer-offline --progress=false --loglevel verbose
+
+      - name: '📦 Release'
+        id: release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Needed to push to GitHub
+          # NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Needed to publish to NPM
+          HUSKY: 0 # disable pre-commit hooks
+        run: |
+          npm run release
+          echo "::set-output name=version::$(npm run env | grep npm_package_version | cut -d '=' -f 2)"
