@@ -1,14 +1,14 @@
 {
-	"name": "@atos-actions/template",
-	"description": "Template repository for @ATOS-Actions organization",
+	"name": "@atos-actions/clean-self-hosted-runner",
+	"description": "clean-self-hosted-runner repository for @ATOS-Actions organization",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ATOS-Actions/template.git"
+		"url": "https://github.com/ATOS-Actions/clean-self-hosted-runner.git"
 	},
-	"bugs": "https://github.com/ATOS-Actions/template/issues",
+	"bugs": "https://github.com/ATOS-Actions/clean-self-hosted-runner/issues",
 	"license": "MIT",
 	"private": "true",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"engines": {
 		"node": ">= 16.0.0",
 		"npm": ">= 8.0.0"

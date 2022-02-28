@@ -53,4 +53,4 @@ jobs:
         run: npm ci --no-optional --no-audit --prefer-offline --progress=false
 
       - name: '✅ Test code'
-        run: npm run test
+        uses: ./
