@@ -21,14 +21,21 @@ jobs:
           github-token: '${{ secrets.GITHUB_TOKEN }}'
 
       - name: Enable auto-merge for Dependabot PRs
-        if: ${{contains(steps.metadata.outputs.dependency-names, 'my-dependency') && steps.metadata.outputs.update-type == 'version-update:semver-patch'}}
-        run: gh pr merge --auto --merge "$PR_URL"
+        continue-on-error: true
+        # if: ${{contains(steps.metadata.outputs.dependency-names, '') && steps.metadata.outputs.update-type == 'version-update:semver-patch'}}
+        # Auto merge all dependencies with patch or minor version updates
+        if: ${{(steps.metadata.outputs.update-type == 'version-update:semver-patch') || (steps.metadata.outputs.update-type == 'version-update:semver-minor')}}
+        run: gh pr merge --auto --squash "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Approve a PR
+        continue-on-error: true
         run: gh pr review --approve "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: '🧹 Cleanup workspace'
+        uses: ATOS-Actions/clean-self-hosted-runner@v1

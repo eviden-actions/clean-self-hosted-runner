@@ -53,3 +53,6 @@ jobs:
         run: |
           npm run release
           echo "::set-output name=version::$(npm run env | grep npm_package_version | cut -d '=' -f 2)"
+
+      - name: '🧹 Cleanup workspace'
+        uses: ATOS-Actions/clean-self-hosted-runner@v1

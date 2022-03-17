@@ -33,3 +33,6 @@ jobs:
           commitlintRulesPath: './commitlint.config.js' # default: undefined
           # if the PR contains a single commit, fail if the commit message and the PR title do not match
           commitTitleMatch: 'true' # default: 'true'
+
+      - name: '🧹 Cleanup workspace'
+        uses: ATOS-Actions/clean-self-hosted-runner@v1

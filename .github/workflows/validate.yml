@@ -32,6 +32,9 @@ jobs:
       - name: '✅ Lint code'
         run: npm run lint
 
+      - name: '🧹 Cleanup workspace'
+        uses: ATOS-Actions/clean-self-hosted-runner@v1
+
   test:
     name: '🧪 Test'
     needs: [lint]
@@ -54,3 +57,6 @@ jobs:
 
       - name: '✅ Test code'
         uses: ./
+
+      - name: '🧹 Cleanup workspace'
+        uses: ATOS-Actions/clean-self-hosted-runner@v1
