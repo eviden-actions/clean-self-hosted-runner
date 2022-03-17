@@ -9,5 +9,5 @@ runs:
       shell: bash
       # TODO: evaluate rm -rf "${{ github.workspace }}"
       run: |
-        echo "This is the action from the ${{ inputs.repository }} repository..."
+        echo "🧹 Cleaning working directory..."
         rm -rf ./*
