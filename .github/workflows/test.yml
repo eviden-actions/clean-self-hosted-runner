@@ -9,35 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  lint:
-    name: '🕵️‍♂️ Lint'
-    runs-on: ubuntu-latest
-    # container: node:lts-bullseye
-
-    steps:
-      - name: '☁️ Checkout repository'
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          persist-credentials: false
-
-      - name: '⚙️ Use Node.js'
-        uses: actions/setup-node@v2
-        with:
-          check-latest: true
-
-      - name: '⛓️ Install dependencies'
-        run: npm ci --no-optional --no-audit --prefer-offline --progress=false
-
-      - name: '✅ Lint code'
-        run: npm run lint
-
-      - name: '🧹 Cleanup workspace'
-        uses: ATOS-Actions/clean-self-hosted-runner@v1
-
   test:
     name: '🧪 Test'
-    needs: [lint]
     runs-on: ubuntu-latest
 
     steps:

@@ -1,0 +1,28 @@
+# This is the workflow for the CI/CD and release
+#
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+      - next
+      - beta
+      - alpha
+
+jobs:
+  lint-code:
+    name: '🕵️‍♂️ Lint code'
+    uses: ATOS-Actions/actions/.github/workflows/lint-code.yml@v1
+
+  test:
+    name: '🧪 Test'
+    needs: [lint-code]
+    uses: ./.github/workflows/test.yml
+
+  release:
+    name: '🏷️ Release'
+    needs: [lint-code, test]
+    uses: ATOS-Actions/actions/.github/workflows/release.yml@v1
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN  }}

@@ -1,0 +1,19 @@
+# This is workflow runs on release
+#
+name: Major Release
+
+# Controls when the action will run.
+on:
+  release:
+    types: [published, edited]
+
+jobs:
+  release:
+    name: '🏷️ Release'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: '📦 Update major version'
+        uses: Actions-R-Us/actions-tagger@latest
+        with:
+          publish_latest_tag: true
