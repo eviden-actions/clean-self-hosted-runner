@@ -23,7 +23,9 @@ jobs:
       - name: '⚙️ Use Node.js'
         uses: actions/setup-node@v3
         with:
+          node-version-file: '.nvmrc'
           check-latest: true
+          cache: 'npm'
 
       - name: '⛓️ Install dependencies'
         run: npm ci --no-optional --no-audit --prefer-offline --progress=false
