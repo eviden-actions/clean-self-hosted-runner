@@ -39,6 +39,6 @@
 	},
 	"optionalDependencies": {
 		"pretty-quick": "^3.1.0",
-		"semantic-release": "^20.1.0"
+		"semantic-release": "^20.1.1"
 	}
 }
