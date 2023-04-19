@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.0.1...v1.1.0) (2023-04-19)
+
+
+### Features
+
+* rebrand to eviden-actions ([6481425](https://github.com/eviden-actions/clean-self-hosted-runner/commit/64814257f6fd33611aa23d43b830cd578b47ffbf))
+
+
+### Dependencies and Other Build Updates
+
+* auto release dependencies updates ([#26](https://github.com/eviden-actions/clean-self-hosted-runner/issues/26)) ([9e386d7](https://github.com/eviden-actions/clean-self-hosted-runner/commit/9e386d716d6681b9e12531b1f29ba5eac2b4b61d))
+
 ## [1.0.1](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.0.0...v1.0.1) (2022-03-17)
 
 
