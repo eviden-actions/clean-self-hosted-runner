@@ -9,17 +9,17 @@ on:
 jobs:
   cancel-runs:
     name: '▶️ actions'
-    uses: ATOS-Actions/actions/.github/workflows/cancel-workflow.yml@v1
+    uses: eviden-actions/actions/.github/workflows/cancel-workflow.yml@v1
 
   lint-pr:
     name: '▶️ actions'
     needs: [cancel-runs]
-    uses: ATOS-Actions/actions/.github/workflows/lint-pr.yml@v1
+    uses: eviden-actions/actions/.github/workflows/lint-pr.yml@v1
 
   lint-code:
     name: '▶️ actions'
     needs: [cancel-runs]
-    uses: ATOS-Actions/actions/.github/workflows/lint-code.yml@v1
+    uses: eviden-actions/actions/.github/workflows/lint-code.yml@v1
 
   test:
     name: '🧪 Test'
@@ -28,6 +28,6 @@ jobs:
 
   dependabot:
     name: '▶️ actions'
-    uses: ATOS-Actions/actions/.github/workflows/dependabot.yml@v1
+    uses: eviden-actions/actions/.github/workflows/dependabot.yml@v1
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN  }}

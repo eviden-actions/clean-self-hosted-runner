@@ -1,11 +1,11 @@
 {
-	"name": "@atos-actions/clean-self-hosted-runner",
-	"description": "clean-self-hosted-runner repository for @ATOS-Actions organization",
+	"name": "@eviden-actions/clean-self-hosted-runner",
+	"description": "clean-self-hosted-runner repository for @eviden-actions organization",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ATOS-Actions/clean-self-hosted-runner.git"
+		"url": "https://github.com/eviden-actions/clean-self-hosted-runner.git"
 	},
-	"bugs": "https://github.com/ATOS-Actions/clean-self-hosted-runner/issues",
+	"bugs": "https://github.com/eviden-actions/clean-self-hosted-runner/issues",
 	"license": "MIT",
 	"private": "true",
 	"version": "1.0.1",
