@@ -1,5 +1,9 @@
-name: '🧹 Cleanup'
+name: 'Clean self-hosted runner'
 description: 'Clean working directory on self-hosted runners'
+
+branding:
+  icon: 'trash-2'
+  color: 'orange'
 
 runs:
   using: composite
