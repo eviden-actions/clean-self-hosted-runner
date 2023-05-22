@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.1.0...v1.2.0) (2023-05-22)
+
+
+### Features
+
+* make sure to run always run the cleanup ([7774cc5](https://github.com/eviden-actions/clean-self-hosted-runner/commit/7774cc5b9b624a00f8ce4738f33aa8a42f527735))
+
 ## [1.1.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.0.1...v1.1.0) (2023-04-19)
 
 
