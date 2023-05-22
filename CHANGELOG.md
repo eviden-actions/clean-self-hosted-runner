@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.0...v1.2.1) (2023-05-22)
+
+
+### Bug Fixes
+
+* set token to update major version tag ([cbd7c13](https://github.com/eviden-actions/clean-self-hosted-runner/commit/cbd7c139b7848fb8ad91595722ba74861f24f6f7))
+
 ## [1.2.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.1.0...v1.2.0) (2023-05-22)
 
 
