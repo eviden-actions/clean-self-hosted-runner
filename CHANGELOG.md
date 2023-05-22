@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.1...v1.2.2) (2023-05-22)
+
+
+### Bug Fixes
+
+* add branding info ([3ca9f45](https://github.com/eviden-actions/clean-self-hosted-runner/commit/3ca9f45d30a1120312bfbb48c10d6ca5f78d4c41))
+
 ## [1.2.1](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.0...v1.2.1) (2023-05-22)
 
 
