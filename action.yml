@@ -6,6 +6,7 @@ runs:
   steps:
     - id: step-1
       name: '🧹 Clean working directory'
+      if: ${{ always() }} # Run even if the job fails or is canceled
       shell: bash
       # TODO: evaluate rm -rf "${{ github.workspace }}"
       run: |
