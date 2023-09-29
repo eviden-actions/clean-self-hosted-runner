@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.3...v1.2.4) (2023-09-29)
+
+
+### Bug Fixes
+
+* add missing dot toe remove hidden files ([c5a82d7](https://github.com/eviden-actions/clean-self-hosted-runner/commit/c5a82d73e2d8d4545d6110f36e83d2dd418da8c0))
+
 ## [1.2.3](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.2...v1.2.3) (2023-09-29)
 
 
