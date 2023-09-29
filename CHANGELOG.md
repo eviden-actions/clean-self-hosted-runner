@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.2...v1.2.3) (2023-09-29)
+
+
+### Bug Fixes
+
+* remove hidden files in workspace root ([#105](https://github.com/eviden-actions/clean-self-hosted-runner/issues/105)) ([0b8a81e](https://github.com/eviden-actions/clean-self-hosted-runner/commit/0b8a81e6f1289470265a0ed52f9a3685d5c4c188))
+
 ## [1.2.2](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.1...v1.2.2) (2023-05-22)
 
 
