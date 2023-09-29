@@ -15,4 +15,4 @@ runs:
       # TODO: evaluate rm -rf "${{ github.workspace }}"
       run: |
         echo "🧹 Cleaning working directory..."
-        rm -rf ./*
+        rm -rf ./* ./[!.]*
