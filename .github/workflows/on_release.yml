@@ -7,6 +7,10 @@ on:
   release:
     types: [published, edited]
 
+concurrency:
+  group: Release_${{ github.ref || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
   release:
     name: '🏷️ Release'

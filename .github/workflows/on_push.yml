@@ -10,14 +10,13 @@ on:
       - beta
       - alpha
 
-jobs:
-  cancel-runs:
-    name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/cancel-workflow.yml@v1
+concurrency:
+  group: ${{ github.ref || github.run_id }}
+  cancel-in-progress: true
 
+jobs:
   lint-code:
     name: '▶️ actions'
-    needs: [cancel-runs]
     uses: eviden-actions/actions/.github/workflows/lint-code.yml@v1
 
   test:
