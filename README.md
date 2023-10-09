@@ -28,13 +28,13 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-	build:
-		runs-on: self-hosted
+  build:
+    runs-on: self-hosted
 
-		steps:
-		- uses: actions/checkout@v3
-		- uses: actions/setup-node@v3
-		- run: npm ci
-		- run: npm run build
-		- uses: eviden-actions/clean-self-hosted-runner@v1
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+    - run: npm ci
+    - run: npm run build
+    - uses: eviden-actions/clean-self-hosted-runner@v1
 ```
