@@ -23,7 +23,7 @@
 		"lint:fix": "npm run lint:style:fix",
 		"lint:style": "prettier --check --ignore-unknown .",
 		"lint:style:fix": "prettier --write --ignore-unknown .",
-		"git:pre-commit": "npx pretty-quick --staged",
+		"git:pre-commit": "npx lint-staged",
 		"git:pre-push": "npm test",
 		"prepare": "husky install",
 		"release": "npx semantic-release",
@@ -38,7 +38,7 @@
 		"prettier": "^3.0.3"
 	},
 	"optionalDependencies": {
-		"pretty-quick": "^3.1.0",
+		"lint-staged": "^14.0.1",
 		"semantic-release": "^22.0.5"
 	}
 }

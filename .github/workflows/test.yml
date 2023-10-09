@@ -37,9 +37,9 @@ jobs:
         uses: ./
 
       - name: '✅ Test if workspace is empty'
-        run: ./test/is_folder_empty.sh  
+        run: ./test/is_folder_empty.sh
         if: ${{ always() }} # Run even if previous steps in the job fail or are canceled
 
       - name: '🧹 Cleanup workspace'
-        uses: eviden-actions/clean-self-hosted-runner@v1   
+        uses: eviden-actions/clean-self-hosted-runner@v1
         if: ${{ always() }} # Run even if previous steps in the job fail or are canceled
