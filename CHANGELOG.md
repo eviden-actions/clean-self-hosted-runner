@@ -1,3 +1,15 @@
+## [1.3.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.4...v1.3.0) (2023-10-12)
+
+
+### Features
+
+* add option to disable the cleanup ([#107](https://github.com/eviden-actions/clean-self-hosted-runner/issues/107)) ([aa216d7](https://github.com/eviden-actions/clean-self-hosted-runner/commit/aa216d74691cc425af9ba5a88e9112525ac69eb3))
+
+
+### Dependencies and Other Build Updates
+
+* replace pretty-quick through lint-staged ([1cd81b1](https://github.com/eviden-actions/clean-self-hosted-runner/commit/1cd81b1b9938b5a6132d46bd2d56e961851e238a))
+
 ## [1.2.4](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.3...v1.2.4) (2023-09-29)
 
 
