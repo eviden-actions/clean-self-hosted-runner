@@ -34,10 +34,24 @@ jobs:
         run: ./test/add_files.sh
 
       - name: '⚙️ Run action'
+        env:
+          DISABLE_RUNNER_CLEANUP: true
+        uses: ./
+
+      - name: '✅ Test if workspace is not empty'
+        shell: bash
+        run: |
+          if [ "$(ls -A .)" ]; then
+            exit 0
+          else
+            echo "Workspace is not Empty"
+            exit 1
+          fi
+
+      - name: '⚙️ Run action'
         uses: ./
 
       - name: '✅ Test if workspace is empty'
-        if: ${{ always() }} # Run even if previous steps in the job fail or are canceled
         shell: bash
         run: |
           if [ "$(ls -A .)" ]; then

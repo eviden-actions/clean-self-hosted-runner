@@ -16,6 +16,10 @@ steps:
   - uses: eviden-actions/clean-self-hosted-runner@v1
 ```
 
+### Options
+
+To disable the cleanup job (e.g. for debugging purpose), set the [environment variable](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#env) `DISABLE_RUNNER_CLEANUP` to **true**
+
 ### Example
 
 This is an example of a simple NPM build workflow that will clean the working directory after each execution.
