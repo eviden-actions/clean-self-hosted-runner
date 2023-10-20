@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.0...v1.3.1) (2023-10-20)
+
+
+### Bug Fixes
+
+* cleanup does not run with DISABLE_RUNNER_CLEANUP=false ([#112](https://github.com/eviden-actions/clean-self-hosted-runner/issues/112)) ([b351172](https://github.com/eviden-actions/clean-self-hosted-runner/commit/b3511720ea5b8542326e5f55ec6fa2a1473d7550))
+
 ## [1.3.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.2.4...v1.3.0) (2023-10-12)
 
 
