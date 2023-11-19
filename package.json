@@ -39,6 +39,6 @@
 	},
 	"optionalDependencies": {
 		"lint-staged": "^15.1.0",
-		"semantic-release": "^22.0.7"
+		"semantic-release": "^22.0.8"
 	}
 }
