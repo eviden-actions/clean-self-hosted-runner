@@ -1,3 +1,11 @@
+## [1.3.4](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.3...v1.3.4) (2024-06-11)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.3.0 to 3.3.1 ([#181](https://github.com/eviden-actions/clean-self-hosted-runner/issues/181)) ([97eb96c](https://github.com/eviden-actions/clean-self-hosted-runner/commit/97eb96c196da7093caaf4461af71b37b17b8c15b))
+* **deps-dev:** bump prettier from 3.3.1 to 3.3.2 ([#182](https://github.com/eviden-actions/clean-self-hosted-runner/issues/182)) ([9697e21](https://github.com/eviden-actions/clean-self-hosted-runner/commit/9697e2154c16fea91bcc549b655571f2ee04780e))
+* **deps:** bump lint-staged from 15.2.5 to 15.2.6 ([#183](https://github.com/eviden-actions/clean-self-hosted-runner/issues/183)) ([38a1ea5](https://github.com/eviden-actions/clean-self-hosted-runner/commit/38a1ea5d05ee88e4240ab682c2f2f53af37b3cb1))
+
 ## [1.3.3](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.2...v1.3.3) (2024-06-03)
 
 ### Dependencies and Other Build Updates
