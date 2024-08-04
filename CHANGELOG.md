@@ -1,3 +1,15 @@
+## [1.3.6](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.5...v1.3.6) (2024-08-04)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump husky from 9.0.11 to 9.1.0 ([#186](https://github.com/eviden-actions/clean-self-hosted-runner/issues/186)) ([7d45eb6](https://github.com/eviden-actions/clean-self-hosted-runner/commit/7d45eb6e54eeb9f7e21b04e86430c3dfbb1eae7e))
+* **deps-dev:** bump husky from 9.1.0 to 9.1.1 ([#187](https://github.com/eviden-actions/clean-self-hosted-runner/issues/187)) ([632719f](https://github.com/eviden-actions/clean-self-hosted-runner/commit/632719f98a2a2ae56af40c933965fa165a7306d1))
+* **deps-dev:** bump husky from 9.1.1 to 9.1.2 ([#188](https://github.com/eviden-actions/clean-self-hosted-runner/issues/188)) ([ce207f6](https://github.com/eviden-actions/clean-self-hosted-runner/commit/ce207f68e879e39765593bd44fa06511e718c9b8))
+* **deps-dev:** bump husky from 9.1.2 to 9.1.3 ([#189](https://github.com/eviden-actions/clean-self-hosted-runner/issues/189)) ([26b9e2e](https://github.com/eviden-actions/clean-self-hosted-runner/commit/26b9e2e4eae3d3405ae742a625757b412e4dc52b))
+* **deps-dev:** bump husky from 9.1.3 to 9.1.4 ([#190](https://github.com/eviden-actions/clean-self-hosted-runner/issues/190)) ([e0fc425](https://github.com/eviden-actions/clean-self-hosted-runner/commit/e0fc4259979826e0301de85cb2ababa3fd13b229))
+* **deps-dev:** bump prettier from 3.3.2 to 3.3.3 ([#185](https://github.com/eviden-actions/clean-self-hosted-runner/issues/185)) ([67cee55](https://github.com/eviden-actions/clean-self-hosted-runner/commit/67cee55f9a698cb69688c5927d4cec159c8cafe6))
+* **deps:** bump lint-staged from 15.2.7 to 15.2.8 ([#191](https://github.com/eviden-actions/clean-self-hosted-runner/issues/191)) ([d91086e](https://github.com/eviden-actions/clean-self-hosted-runner/commit/d91086e33411ef10094e380f09d028932eff9e21))
+
 ## [1.3.5](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.4...v1.3.5) (2024-06-12)
 
 ### Dependencies and Other Build Updates
