@@ -1,3 +1,12 @@
+## [1.3.12](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.11...v1.3.12) (2024-09-29)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump @commitlint/cli from 19.4.1 to 19.5.0 ([#203](https://github.com/eviden-actions/clean-self-hosted-runner/issues/203)) ([5dfba2b](https://github.com/eviden-actions/clean-self-hosted-runner/commit/5dfba2bd366b82fda8c5432e7fbfe32c16f67fc6))
+* **deps-dev:** bump @commitlint/config-conventional ([#201](https://github.com/eviden-actions/clean-self-hosted-runner/issues/201)) ([47fc5ef](https://github.com/eviden-actions/clean-self-hosted-runner/commit/47fc5ef3889b0f139758361612a67df961f7eed3))
+* **deps-dev:** bump husky from 9.1.5 to 9.1.6 ([#202](https://github.com/eviden-actions/clean-self-hosted-runner/issues/202)) ([0962174](https://github.com/eviden-actions/clean-self-hosted-runner/commit/096217473abfc95bd4702d7adea9b75b7a77fd00))
+* **deps:** bump semantic-release in the semantic-release group ([#204](https://github.com/eviden-actions/clean-self-hosted-runner/issues/204)) ([f57947b](https://github.com/eviden-actions/clean-self-hosted-runner/commit/f57947b79e7c562da08ad9dfe3ae8d6c0420b521))
+
 ## [1.3.11](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.10...v1.3.11) (2024-09-11)
 
 ### Dependencies and Other Build Updates
