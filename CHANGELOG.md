@@ -1,3 +1,9 @@
+## [1.3.13](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.12...v1.3.13) (2024-10-20)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump semantic-release in the semantic-release group ([#205](https://github.com/eviden-actions/clean-self-hosted-runner/issues/205)) ([114d999](https://github.com/eviden-actions/clean-self-hosted-runner/commit/114d99935d8a0e18e7a370a27de280f488f37d76))
+
 ## [1.3.12](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.11...v1.3.12) (2024-09-29)
 
 ### Dependencies and Other Build Updates
