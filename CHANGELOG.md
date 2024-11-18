@@ -1,3 +1,10 @@
+## [1.3.15](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.14...v1.3.15) (2024-11-18)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump husky from 9.1.6 to 9.1.7 ([#207](https://github.com/eviden-actions/clean-self-hosted-runner/issues/207)) ([a75dd0a](https://github.com/eviden-actions/clean-self-hosted-runner/commit/a75dd0a746181a1d069e9713700197ed0b42f04d))
+* **deps:** bump cross-spawn from 7.0.3 to 7.0.6 ([#208](https://github.com/eviden-actions/clean-self-hosted-runner/issues/208)) ([82b79d4](https://github.com/eviden-actions/clean-self-hosted-runner/commit/82b79d4cb89272210dd5ce8b3b133220464cfe93))
+
 ## [1.3.14](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.13...v1.3.14) (2024-10-27)
 
 ### Dependencies and Other Build Updates
