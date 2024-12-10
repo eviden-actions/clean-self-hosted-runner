@@ -1,3 +1,13 @@
+## [1.3.16](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.15...v1.3.16) (2024-12-10)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump @commitlint/cli from 19.5.0 to 19.6.0 ([#209](https://github.com/eviden-actions/clean-self-hosted-runner/issues/209)) ([4b3fb98](https://github.com/eviden-actions/clean-self-hosted-runner/commit/4b3fb989b2db2c8587911ce1099bc0bdfa65eb0d))
+* **deps-dev:** bump @commitlint/config-conventional ([#210](https://github.com/eviden-actions/clean-self-hosted-runner/issues/210)) ([6068b92](https://github.com/eviden-actions/clean-self-hosted-runner/commit/6068b929a416ced59d099ec7d63fb0b986e73725))
+* **deps-dev:** bump prettier from 3.3.3 to 3.4.1 ([#211](https://github.com/eviden-actions/clean-self-hosted-runner/issues/211)) ([2ceb34e](https://github.com/eviden-actions/clean-self-hosted-runner/commit/2ceb34e44e4358ebe1c7382fdec914edfc99180d))
+* **deps-dev:** bump prettier from 3.4.1 to 3.4.2 ([#212](https://github.com/eviden-actions/clean-self-hosted-runner/issues/212)) ([fc6df68](https://github.com/eviden-actions/clean-self-hosted-runner/commit/fc6df681207cf692afe732aab3341f417eaf4a52))
+* **deps:** bump lint-staged from 15.2.10 to 15.2.11 ([#213](https://github.com/eviden-actions/clean-self-hosted-runner/issues/213)) ([66007e7](https://github.com/eviden-actions/clean-self-hosted-runner/commit/66007e787d76f03d5be3739e15b8df40ccab4af0))
+
 ## [1.3.15](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.14...v1.3.15) (2024-11-18)
 
 ### Dependencies and Other Build Updates
