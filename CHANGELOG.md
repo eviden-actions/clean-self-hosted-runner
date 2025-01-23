@@ -1,3 +1,9 @@
+## [1.3.20](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.19...v1.3.20) (2025-01-23)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump lint-staged from 15.4.1 to 15.4.2 ([#218](https://github.com/eviden-actions/clean-self-hosted-runner/issues/218)) ([521e972](https://github.com/eviden-actions/clean-self-hosted-runner/commit/521e97254934a740d24e866f4bff378f6ac6f925))
+
 ## [1.3.19](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.18...v1.3.19) (2025-01-16)
 
 ### Dependencies and Other Build Updates
