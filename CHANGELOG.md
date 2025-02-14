@@ -1,3 +1,9 @@
+## [1.3.24](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.23...v1.3.24) (2025-02-14)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump @octokit/plugin-paginate-rest from 11.3.5 to 11.4.2 ([#226](https://github.com/eviden-actions/clean-self-hosted-runner/issues/226)) ([c2101f9](https://github.com/eviden-actions/clean-self-hosted-runner/commit/c2101f9ddde5c48bd9226cdcc8552b5683501483))
+
 ## [1.3.23](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.22...v1.3.23) (2025-02-14)
 
 ### Dependencies and Other Build Updates
