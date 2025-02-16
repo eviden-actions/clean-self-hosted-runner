@@ -1,3 +1,10 @@
+## [1.3.26](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.25...v1.3.26) (2025-02-16)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump @octokit/request from 9.1.3 to 9.2.2 ([#230](https://github.com/eviden-actions/clean-self-hosted-runner/issues/230)) ([529159b](https://github.com/eviden-actions/clean-self-hosted-runner/commit/529159be2876d69a115de72c52c20d8177dc3964))
+* **deps:** bump @octokit/request-error from 6.1.5 to 6.1.7 ([#227](https://github.com/eviden-actions/clean-self-hosted-runner/issues/227)) ([693f865](https://github.com/eviden-actions/clean-self-hosted-runner/commit/693f8650f8c6b8757c393bea7ff36a26699282ff))
+
 ## [1.3.25](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.24...v1.3.25) (2025-02-16)
 
 ### Dependencies and Other Build Updates
