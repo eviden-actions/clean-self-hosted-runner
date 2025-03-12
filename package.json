@@ -38,7 +38,7 @@
 		"prettier": "^3.5.3"
 	},
 	"optionalDependencies": {
-		"lint-staged": "^15.4.3",
+		"lint-staged": "^15.5.0",
 		"semantic-release": "^24.2.3"
 	},
 	"overrides": {
