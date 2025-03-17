@@ -1,3 +1,13 @@
+## [1.4.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.27...v1.4.0) (2025-03-17)
+
+### Features
+
+* add Windows support for cleaning working directory ([#237](https://github.com/eviden-actions/clean-self-hosted-runner/issues/237)) ([d7e1f08](https://github.com/eviden-actions/clean-self-hosted-runner/commit/d7e1f08ae47b3ea0de8edf055f444391e7938427))
+
+### Bug Fixes
+
+* correct syntax for directory removal in Windows environment ([066089e](https://github.com/eviden-actions/clean-self-hosted-runner/commit/066089ea81a4dc09910a30a59344297cf3eec1da))
+
 ## [1.3.27](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.26...v1.3.27) (2025-03-13)
 
 ### Dependencies and Other Build Updates
