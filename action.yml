@@ -8,12 +8,22 @@ branding:
 runs:
   using: composite
   steps:
-    - id: step-1
+    - id: Linux
       name: '🧹 Clean working directory'
       # If you want to disable the cleanup for e.g. debugging purpose, you can set the environment variable DISABLE_RUNNER_CLEANUP to true
-      if: ${{ always() && env.DISABLE_RUNNER_CLEANUP != 'true' }} # Run even if the job fails or is canceled
+      if: ${{ always() && runner.os != 'Windows' && env.DISABLE_RUNNER_CLEANUP != 'true' }} # Run even if the job fails or is canceled
       shell: bash
       # TODO: evaluate rm -rf "${{ github.workspace }}"
       run: |
         echo "🧹 Cleaning working directory..."
         rm -rf ./* ./.[!.]*
+
+    - id: Windows
+      name: '🧹 Clean working directory'
+      # If you want to disable the cleanup for e.g. debugging purpose, you can set the environment variable DISABLE_RUNNER_CLEANUP to true
+      if: ${{ always() && runner.os == 'Windows' && env.DISABLE_RUNNER_CLEANUP != 'true' }} # Run even if the job fails or is canceled
+      shell: cmd
+      # TODO: evaluate rm -rf "${{ github.workspace }}"
+      run: |
+        echo "🧹 Cleaning working directory..."
+        del /q /f *.* & for /d %i in (*) do rmdir /s /q "%i"
