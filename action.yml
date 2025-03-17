@@ -26,4 +26,4 @@ runs:
       # TODO: evaluate rm -rf "${{ github.workspace }}"
       run: |
         echo "🧹 Cleaning working directory..."
-        del /q /f *.* & for /d %i in (*) do rmdir /s /q "%i"
+        del /q /f *.* & for /d %%i in (*) do rmdir /s /q "%%i"
