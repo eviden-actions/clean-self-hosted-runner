@@ -91,8 +91,12 @@ jobs:
         uses: ./
 
       - name: '✅ Test if workspace is empty'
-        run: ./test/is_folder_empty.ps1
         shell: pwsh
+        run: |
+          if [ "$(ls -A .)" ]; then
+            echo "Workspace is not Empty"
+            exit 1
+          fi
 
       - name: '☁️ Checkout repository'
         uses: actions/checkout@v4
@@ -106,8 +110,14 @@ jobs:
         uses: ./
 
       - name: '✅ Test if workspace is not empty'
-        run: ./test/is_folder_not_empty.ps1
         shell: pwsh
+        run: |
+          if [ "$(ls -A .)" ]; then
+            exit 0
+          else
+            echo "Workspace is not Empty"
+            exit 1
+          fi
 
       - name: '⚙️ Run action with DISABLE_RUNNER_CLEANUP set to false'
         env:
@@ -115,8 +125,12 @@ jobs:
         uses: ./
 
       - name: '✅ Test if workspace is empty'
-        run: ./test/is_folder_empty.ps1
         shell: pwsh
+        run: |
+          if [ "$(ls -A .)" ]; then
+            echo "Workspace is not Empty"
+            exit 1
+          fi
 
       - name: '🧹 Cleanup workspace'
         uses: eviden-actions/clean-self-hosted-runner@v1
