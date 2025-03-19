@@ -1,0 +1,24 @@
+# This is the workflow for the CI/CD and release
+#
+name: Release
+
+on:
+  workflow_run:
+    workflows: ['Lint & Test']
+    types: [completed]
+    branches: [main, next, beta, alpha]
+
+concurrency:
+  group: ${{ github.event.workflow_run.name || github.workflow  }}_${{ github.head_ref || github.ref || github.run_id }}
+  cancel-in-progress: true
+
+# Declare default permissions as read only.
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: '▶️ actions'
+    uses: eviden-actions/actions/.github/workflows/release.yml@v1
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
