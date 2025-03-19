@@ -35,7 +35,8 @@
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
 		"husky": "^9.1.7",
-		"prettier": "^3.5.3"
+		"prettier": "^3.5.3",
+		"semantic-release-major-tag": "^0.3.2"
 	},
 	"optionalDependencies": {
 		"lint-staged": "^15.5.0",

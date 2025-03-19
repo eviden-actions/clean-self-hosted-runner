@@ -71,6 +71,7 @@
 			{
 				"assets": "./*.tgz"
 			}
-		]
+		],
+		"semantic-release-major-tag"
 	]
 }
