@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.0...v1.4.1) (2025-03-20)
+
+### Bug Fixes
+
+* update Windows cleanup script to handle hidden files and directories ([#239](https://github.com/eviden-actions/clean-self-hosted-runner/issues/239)) ([90192f2](https://github.com/eviden-actions/clean-self-hosted-runner/commit/90192f2249a72414e643dfde053b61def30fba9f))
+
 ## [1.4.0](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.3.27...v1.4.0) (2025-03-17)
 
 ### Features
