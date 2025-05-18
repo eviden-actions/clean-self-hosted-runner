@@ -8,7 +8,7 @@
 	"bugs": "https://github.com/eviden-actions/clean-self-hosted-runner/issues",
 	"license": "MIT",
 	"private": "true",
-	"version": "1.4.4",
+	"version": "1.4.5",
 	"engines": {
 		"node": ">= 16.0.0",
 		"npm": ">= 8.0.0"
