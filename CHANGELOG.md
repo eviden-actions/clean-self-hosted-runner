@@ -1,3 +1,9 @@
+## [1.4.7](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.6...v1.4.7) (2025-05-27)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump lint-staged from 16.0.0 to 16.1.0 ([#247](https://github.com/eviden-actions/clean-self-hosted-runner/issues/247)) ([a06d3b7](https://github.com/eviden-actions/clean-self-hosted-runner/commit/a06d3b73501998d86f1e3a470cefa8e938f5c2b8))
+
 ## [1.4.6](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.5...v1.4.6) (2025-05-25)
 
 ### Dependencies and Other Build Updates
