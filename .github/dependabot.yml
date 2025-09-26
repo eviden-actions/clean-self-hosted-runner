@@ -11,13 +11,14 @@ updates:
       interval: 'daily'
       time: '00:00'
       timezone: 'Europe/Berlin'
-    reviewers:
-      - 'Th3S4mur41'
     groups:
       semantic-release:
         patterns:
           - 'semantic-release'
           - '@semantic-release/*'
+      commitlint:
+        patterns:
+          - '@commitlint/*'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
@@ -25,5 +26,3 @@ updates:
       interval: 'daily'
       time: '00:00'
       timezone: 'Europe/Berlin'
-    reviewers:
-      - 'Th3S4mur41'
