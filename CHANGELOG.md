@@ -1,3 +1,9 @@
+## [1.4.19](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.18...v1.4.19) (2025-09-26)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump eviden-actions/actions from 1 to 2 ([#263](https://github.com/eviden-actions/clean-self-hosted-runner/issues/263)) ([1aabfe8](https://github.com/eviden-actions/clean-self-hosted-runner/commit/1aabfe82d5a7dc74cef3eab826ca408801420102))
+
 ## [1.4.18](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.17...v1.4.18) (2025-09-26)
 
 ### Dependencies and Other Build Updates
