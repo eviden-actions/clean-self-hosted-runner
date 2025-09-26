@@ -19,6 +19,6 @@ permissions:
 jobs:
   release:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/release.yml@v1
+    uses: eviden-actions/actions/.github/workflows/release.yml@v2
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN  }}
