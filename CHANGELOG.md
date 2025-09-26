@@ -1,3 +1,10 @@
+## [1.4.18](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.17...v1.4.18) (2025-09-26)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump the commitlint group with 2 updates ([#265](https://github.com/eviden-actions/clean-self-hosted-runner/issues/265)) ([0536609](https://github.com/eviden-actions/clean-self-hosted-runner/commit/0536609705f17f3cb5877c59a80995120d5539c8))
+* **deps:** bump actions/checkout from 4 to 5 ([#264](https://github.com/eviden-actions/clean-self-hosted-runner/issues/264)) ([7d7693c](https://github.com/eviden-actions/clean-self-hosted-runner/commit/7d7693c8b5bbb4e34042a05720cde3349b1023d5))
+
 ## [1.4.17](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.16...v1.4.17) (2025-09-25)
 
 ### Dependencies and Other Build Updates
