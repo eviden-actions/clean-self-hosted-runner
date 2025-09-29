@@ -1,6 +1,7 @@
 # Copilot Instructions for This Repository
 
 ## Commit Messages
+
 - Always use [Conventional Commits](https://www.conventionalcommits.org/) format.
 - Format: `type(scope): description`
 - Use imperative mood (e.g., "fix bug", not "fixed bug").
