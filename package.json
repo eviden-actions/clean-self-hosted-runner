@@ -40,7 +40,7 @@
 	},
 	"optionalDependencies": {
 		"lint-staged": "^16.2.3",
-		"semantic-release": "^24.2.9"
+		"semantic-release": "^25.0.0"
 	},
 	"overrides": {
 		"conventional-changelog-conventionalcommits": ">= 8.0.0"
