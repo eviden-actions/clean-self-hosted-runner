@@ -1,3 +1,9 @@
+## [1.4.27](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.26...v1.4.27) (2025-11-15)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump js-yaml from 4.1.0 to 4.1.1 ([#274](https://github.com/eviden-actions/clean-self-hosted-runner/issues/274)) ([5bf365b](https://github.com/eviden-actions/clean-self-hosted-runner/commit/5bf365b2a4666bc0b6dc454f07a324b9de2b21e3))
+
 ## [1.4.26](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.25...v1.4.26) (2025-11-09)
 
 ### Dependencies and Other Build Updates
