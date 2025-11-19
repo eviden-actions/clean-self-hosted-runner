@@ -39,7 +39,7 @@
 		"semantic-release-major-tag": "^0.3.2"
 	},
 	"optionalDependencies": {
-		"lint-staged": "^16.2.6",
+		"lint-staged": "^16.2.7",
 		"semantic-release": "^25.0.2"
 	},
 	"overrides": {
