@@ -26,6 +26,6 @@ jobs:
 
   dependabot:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/dependabot.yml@v2
+    uses: eviden-actions/actions/.github/workflows/dependabot.yml@v3
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN  }}
