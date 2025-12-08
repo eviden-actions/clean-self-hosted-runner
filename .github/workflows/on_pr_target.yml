@@ -13,7 +13,7 @@ concurrency:
 jobs:
   lint-pr:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/lint-pr.yml@v2
+    uses: eviden-actions/actions/.github/workflows/lint-pr.yml@v3
 
   lint-code:
     name: '▶️ actions'
