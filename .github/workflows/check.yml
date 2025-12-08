@@ -24,7 +24,7 @@ jobs:
 
   lint-code:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/lint-code.yml@v2
+    uses: eviden-actions/actions/.github/workflows/lint-code.yml@v3
 
   test:
     name: '🧪 Test'
