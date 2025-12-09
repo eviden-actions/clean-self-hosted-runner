@@ -25,7 +25,7 @@
 		"lint:style:fix": "prettier --write --ignore-unknown .",
 		"git:pre-commit": "npx lint-staged",
 		"git:pre-push": "npm test",
-		"prepare": "husky install",
+		"prepare": "husky",
 		"release": "npx semantic-release",
 		"test": "echo 'No test script defined for this project'"
 	},
