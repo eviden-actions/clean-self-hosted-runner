@@ -17,6 +17,9 @@ jobs:
   pr-lint:
     name: '▶️ actions'
     uses: eviden-actions/actions/.github/workflows/lint-pr.yml@v3
+    permissions:
+      contents: read
+      pull-requests: write
 
   lint-code:
     name: '▶️ actions'
