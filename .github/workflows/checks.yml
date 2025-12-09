@@ -1,17 +1,13 @@
 # This is the workflow for the pull request
 #
-name: Lint & Test
+name: Checks
 
 on:
   pull_request:
     types: [opened, synchronize, reopened]
 
   push:
-    branches:
-      - main
-      - next
-      - beta
-      - alpha
+    branches: [main, next, beta, alpha]
 
 concurrency:
   group: ${{ github.workflow }}_${{ github.head_ref || github.ref || github.run_id }}
@@ -20,11 +16,11 @@ concurrency:
 jobs:
   pr-lint:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/lint-pr.yml@v2
+    uses: eviden-actions/actions/.github/workflows/lint-pr.yml@v3
 
   lint-code:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/lint-code.yml@v2
+    uses: eviden-actions/actions/.github/workflows/lint-code.yml@v3
 
   test:
     name: '🧪 Test'
