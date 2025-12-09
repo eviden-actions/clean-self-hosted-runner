@@ -26,3 +26,8 @@ updates:
       interval: 'daily'
       time: '00:00'
       timezone: 'Europe/Berlin'
+    groups:
+      atos-actions:
+        patterns:
+          - 'atos-actions/*'
+          - 'eviden-actions/*'
