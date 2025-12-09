@@ -4,7 +4,7 @@ name: Release
 
 on:
   workflow_run:
-    workflows: ['Lint & Test']
+    workflows: ['Checks']
     types: [completed]
     branches: [main, next, beta, alpha]
 
@@ -20,8 +20,9 @@ jobs:
   release:
     name: '▶️ actions'
     uses: eviden-actions/actions/.github/workflows/release.yml@v3
-    secrets:
-      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
     permissions:
       contents: write
       packages: write
+    secrets:
+      RELEASE_APP_ID: ${{ secrets.RELEASE_APP_ID }}
+      RELEASE_APP_PRIVATE_KEY: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}

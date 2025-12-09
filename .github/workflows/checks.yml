@@ -1,17 +1,13 @@
 # This is the workflow for the pull request
 #
-name: Lint & Test
+name: Checks
 
 on:
   pull_request:
     types: [opened, synchronize, reopened]
 
   push:
-    branches:
-      - main
-      - next
-      - beta
-      - alpha
+    branches: [main, next, beta, alpha]
 
 concurrency:
   group: ${{ github.workflow }}_${{ github.head_ref || github.ref || github.run_id }}
