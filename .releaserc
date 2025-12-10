@@ -21,6 +21,12 @@
 						"type": "build",
 						"scope": "deps",
 						"release": "patch"
+					},
+					{
+						"type": "build",
+						"scope": "deps",
+						"subject": "*bump*actions/*",
+						"release": false
 					}
 				]
 			}
