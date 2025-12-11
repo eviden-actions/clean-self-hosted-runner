@@ -1,3 +1,13 @@
+## [1.4.32](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.31...v1.4.32) (2025-12-11)
+
+### Bug Fixes
+
+* update repository references from eviden-actions to atos-actions ([#291](https://github.com/atos-actions/clean-self-hosted-runner/issues/291)) ([6f26eb8](https://github.com/atos-actions/clean-self-hosted-runner/commit/6f26eb8c898747de5fb84f5af07ac17c93ca3c0c))
+
+### Dependencies and Other Build Updates
+
+* release should not be created for dev dependencies updates ([#288](https://github.com/atos-actions/clean-self-hosted-runner/issues/288)) ([4f0d74d](https://github.com/atos-actions/clean-self-hosted-runner/commit/4f0d74d3182e39847fbff934f230ecdca14f4204))
+
 ## [1.4.31](https://github.com/eviden-actions/clean-self-hosted-runner/compare/v1.4.30...v1.4.31) (2025-12-09)
 
 ### Dependencies and Other Build Updates
