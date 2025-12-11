@@ -19,7 +19,7 @@ permissions:
 jobs:
   release:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/release.yml@v3
+    uses: atos-actions/actions/.github/workflows/release.yml@v3
     permissions:
       contents: write
       packages: write

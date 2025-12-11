@@ -19,14 +19,14 @@ concurrency:
 jobs:
   pr-lint:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/lint-pr.yml@v3
+    uses: atos-actions/actions/.github/workflows/lint-pr.yml@v3
     permissions:
       contents: read
       pull-requests: write
 
   lint-code:
     name: '▶️ actions'
-    uses: eviden-actions/actions/.github/workflows/lint-code.yml@v3
+    uses: atos-actions/actions/.github/workflows/lint-code.yml@v3
 
   test:
     name: '🧪 Test'
